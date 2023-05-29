@@ -1,0 +1,46 @@
+flowchart TD
+    A["บริการ IT ภาครัฐ"] -->B{"ประมวลผล
+    ข้อมูลส่วนบุคคล
+    ของประชาชน(PII)
+    หรือไม่ ?"}
+    B -->|Yes| C["ตัวอย่าง : 
+    ระบบพบแพทย์ออนไลน์
+    ระบบข้อมูลสวัสดิการคนพิการ
+    "]
+    B -->|No| D["ตัวอย่าง : 
+    ระบบควบคุมไฟจราจรแบบออนไลน์
+    ระบบควบคุมไฟแสงสว่างถนนแบบออนไลน์
+    block chain การทำประชามติ"]
+    C --> E{"มีอยู่แล้ว
+    หรือต้องสร้าง
+    ขึ้นใหม่"}
+    E -->|"มีอยู่แล้ว"| G["ปรับปรุง Cybersecurity
+    People/Process/Technology"]
+    G -->M["ปรับปรุง/สร้าง/จัดหา 
+    เทคโนโลยี 
+    อุปกรณ์ ระบบ
+    ที่เหมาะสมปลอดภัย"]
+    G -->N["ปรับปรุง กระบวนการ 
+    ที่ซับซ้อน กฎหมาย นโยบาย
+    ให้ปลอดภัยมากขึ้น 
+    โปร่งใส ตรวจสอบได้"]
+    G -->O["จัดหากำลังคน พัฒนาคน
+    ในด้าน Cybersecurity 
+    ให้เพียงพอเหมาะสม"]
+    E -->|"สร้างขึ้นใหม่"| H["แบ่ง Phase ออกเป็น 4 Phases"]
+    H -->I["Phase1 : ออกแบบ (SDLC)"]
+    I -->J["Phase2 : Implement 
+    (Penteration Test
+    Security Validation
+    System Hardening)"]
+    J -->K["Phase3 : Production 
+    (SOC/CERT/Blue Team)"]
+    K -->L["Phase4 : Incident Handler and Improvement"]
+    P["กระบวนการทาง Cybersecurity
+    People
+    Process
+    Technology"] -->Q["ทรัพยากร=เวลา/คน/เงิน"]
+    Q -->I
+    Q -->J
+    Q -->K
+    Q -->L
