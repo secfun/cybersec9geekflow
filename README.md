@@ -27,5 +27,7 @@ diagram ถูกเขียนด้วย Mermaid
 สามารถเข้าไปดูได้ที่ : https://mermaid.js.org/#/
 ผมเขียนแบบ live มาสดๆเลยตรงนี้ : https://mermaid.live/
 
+![alt text](https://raw.githubusercontent.com/secfun/cybersec9geekflow/main/Mermaid9geek.jpg?raw=true)
+
 
 
